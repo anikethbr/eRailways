@@ -1,0 +1,81 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/*********************************** NAVBAR ****************************************/
+
+.navbar{
+    box-shadow: 0.5px 0.5px 10px rgb(123, 122, 122);
+}
+.navbar-name{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    font-weight: 900;
+    margin-left: 12% !important;
+}
+.navbar-name-segment{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    color: #3f0071;
+    font-weight: 900;
+    margin: 0%;
+}
+.name{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    color: #3f0071;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+}
+.navbar .navbar-brand {
+  font-size: 30px;
+}
+.navbar .nav-item {
+  padding: 10px 20px;
+}
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+  font-family: "Titillium Web", sans-serif;
+}
+.navbar .nav-link:hover {
+    color: #3f0071;
+    font-weight: 600;
+}
+
+/*********************************** Home ****************************************/
+
+#Home{
+  display:flex;
+  flex-wrap: wrap;  
+  justify-content:space-evenly;
+  column-gap: 20px;
+}
+.booking{
+    background-color: rgb(203, 247, 247);
+    margin: 20px auto;
+    padding: 50px;
+    width:max-content;
+    border-radius: 20px;
+}
+.index-img{
+  width: 700px;
+}
+.index-img>img{
+  width:100%;
+  height: min-content;
+}
+#booking{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.success>img{
+    width: fit-content;
+    height: 25vh;
+    margin: 10% auto;
+}
